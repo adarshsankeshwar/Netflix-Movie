@@ -49,7 +49,7 @@ TMDB API (Movie Data)
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/netflix-frontend.git
+git clone https://github.com/adarshsankeshwar/netflix-frontend.git
 cd netflix-frontend
 
 2️⃣ Install Dependencies
@@ -105,4 +105,4 @@ It is not affiliated with or endorsed by Netflix.
 👨‍💻 Author
 
 Your Name
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/adarshsankeshwar
