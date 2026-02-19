@@ -1,73 +1,122 @@
-# Welcome to your Lovable project
+🎬 Netflix Clone
 
-## Project info
+A responsive Netflix-inspired web application built to replicate the core UI and functionality of Netflix. This project demonstrates front-end development skills, API integration, authentication, and responsive design.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+📌 Overview
 
-## How can I edit this code?
+This project is a clone of the popular streaming platform Netflix.
+It allows users to browse movies and TV shows, view details, and explore categorized content using a modern and responsive interface.
 
-There are several ways of editing your application.
+🚀 Features
 
-**Use Lovable**
+🔐 User Authentication (Sign Up / Login)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🎥 Browse Movies & TV Shows
 
-Changes made via Lovable will be committed automatically to this repo.
+🔎 Search Functionality
 
-**Use your preferred IDE**
+📂 Categorized Content Rows
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📱 Fully Responsive Design
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+▶️ Trailer Playback (via YouTube integration)
 
-Follow these steps:
+🌙 Clean Netflix-style UI
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🛠️ Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Frontend:
 
-# Step 3: Install the necessary dependencies.
-npm i
+React.js
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+HTML5
 
-**Edit a file directly in GitHub**
+CSS3
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+JavaScript (ES6+)
 
-**Use GitHub Codespaces**
+Backend (if applicable):
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Node.js
 
-## What technologies are used for this project?
+Express.js
 
-This project is built with:
+MongoDB / Firebase
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+API:
 
-## How can I deploy this project?
+TMDB (The Movie Database API)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+📂 Project Structure
+netflix-clone/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
 
-## Can I connect a custom domain to my Lovable project?
+⚙️ Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/yourusername/netflix-clone.git
+cd netflix-clone
 
-Yes, you can!
+2️⃣ Install dependencies
+npm install
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+3️⃣ Add Environment Variables
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Create a .env file and add:
+
+REACT_APP_TMDB_API_KEY=your_api_key_here
+
+4️⃣ Start the development server
+npm start
+
+
+App will run on:
+
+http://localhost:3000
+
+📸 Screenshots
+
+Add screenshots of your homepage, login page, and movie details page here.
+
+🔮 Future Improvements
+
+Add user profiles
+
+Add watchlist feature
+
+Implement subscription system
+
+Add video streaming backend
+
+Improve performance optimization
+
+📚 Learning Outcomes
+
+API integration
+
+Component-based architecture
+
+State management
+
+Responsive UI design
+
+Authentication handling
+
+⚠️ Disclaimer
+
+This project is created for educational purposes only.
+It is not affiliated with or endorsed by Netflix.
+
+👨‍💻 Author
+
+Your Name
+GitHub: https://github.com/yourusername
