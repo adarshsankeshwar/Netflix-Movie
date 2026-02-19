@@ -101,7 +101,7 @@ const MovieDetails = () => {
 
             {movie.imdbRating && movie.imdbRating !== "N/A" && (
               <div className="flex items-center gap-2 mb-6">
-                <Star size={20} className="text-primary fill-primary" />
+                <Star size={20} style={{ color: 'hsl(45, 93%, 47%)', fill: 'hsl(45, 93%, 47%)' }} />
                 <span className="text-lg font-semibold text-foreground">
                   {movie.imdbRating}
                 </span>
