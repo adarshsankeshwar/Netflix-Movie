@@ -1,73 +1,108 @@
-# Welcome to your Lovable project
+🎬 Netflix Frontend Clone
 
-## Project info
+A responsive frontend clone of Netflix built using modern web technologies.
+This project replicates the user interface and core browsing experience of Netflix, focusing on design, responsiveness, and API integration.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+📌 Overview
 
-## How can I edit this code?
+The Netflix Frontend Clone is a UI-based web application that allows users to:
 
-There are several ways of editing your application.
+Browse trending movies and TV shows
 
-**Use Lovable**
+View categorized content rows
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Watch trailers
 
-Changes made via Lovable will be committed automatically to this repo.
+Experience a responsive Netflix-style layout
 
-**Use your preferred IDE**
+This project demonstrates frontend development skills including component-based architecture and API handling.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🚀 Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🎥 Dynamic Movie & TV Show Listings
 
-Follow these steps:
+🔥 Trending & Popular Sections
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+▶️ Trailer Playback (YouTube Integration)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🔎 Search Functionality
 
-# Step 3: Install the necessary dependencies.
-npm i
+📱 Fully Responsive Design
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+🌙 Modern Netflix-Inspired UI
 
-**Edit a file directly in GitHub**
+⚡ Smooth Scrolling & Hover Effects
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🛠️ Tech Stack
 
-**Use GitHub Codespaces**
+React.js
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+HTML5
 
-## What technologies are used for this project?
+CSS3
 
-This project is built with:
+JavaScript (ES6+)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Axios (API Requests)
 
-## How can I deploy this project?
+TMDB API (Movie Data)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/yourusername/netflix-frontend.git
+cd netflix-frontend
 
-## Can I connect a custom domain to my Lovable project?
+2️⃣ Install Dependencies
+npm install
 
-Yes, you can!
+3️⃣ Add Environment Variables
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Create a .env file in the root folder:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+
+4️⃣ Start the Development Server
+npm start
+
+
+The application will run on:
+
+http://localhost:3000
+
+📸 Screenshots
+
+Add screenshots of your homepage, banner section, and movie rows here.
+
+🎯 Key Learning Outcomes
+
+API Integration using Axios
+
+React Functional Components & Hooks
+
+State Management
+
+Responsive UI Design
+
+Reusable Component Architecture
+
+🔮 Future Improvements
+
+Add user authentication
+
+Add watchlist feature
+
+Implement backend for real user data
+
+Add dark/light theme toggle
+
+Deploy on Netlify or Vercel
+
+⚠️ Disclaimer
+
+This project is built for educational purposes only.
+It is not affiliated with or endorsed by Netflix.
+
+👨‍💻 Author
+
+Your Name
+GitHub: https://github.com/yourusername
