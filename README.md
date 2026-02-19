@@ -1,122 +1,73 @@
-🎬 Netflix Clone
+# Welcome to your Lovable project
 
-A responsive Netflix-inspired web application built to replicate the core UI and functionality of Netflix. This project demonstrates front-end development skills, API integration, authentication, and responsive design.
+## Project info
 
-📌 Overview
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-This project is a clone of the popular streaming platform Netflix.
-It allows users to browse movies and TV shows, view details, and explore categorized content using a modern and responsive interface.
+## How can I edit this code?
 
-🚀 Features
+There are several ways of editing your application.
 
-🔐 User Authentication (Sign Up / Login)
+**Use Lovable**
 
-🎥 Browse Movies & TV Shows
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-🔎 Search Functionality
+Changes made via Lovable will be committed automatically to this repo.
 
-📂 Categorized Content Rows
+**Use your preferred IDE**
 
-📱 Fully Responsive Design
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-▶️ Trailer Playback (via YouTube integration)
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-🌙 Clean Netflix-style UI
+Follow these steps:
 
-🛠️ Tech Stack
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-Frontend:
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-React.js
+# Step 3: Install the necessary dependencies.
+npm i
 
-HTML5
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-CSS3
+**Edit a file directly in GitHub**
 
-JavaScript (ES6+)
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-Backend (if applicable):
+**Use GitHub Codespaces**
 
-Node.js
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-Express.js
+## What technologies are used for this project?
 
-MongoDB / Firebase
+This project is built with:
 
-API:
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-TMDB (The Movie Database API)
+## How can I deploy this project?
 
-📂 Project Structure
-netflix-clone/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── utils/
-│   ├── App.js
-│   └── index.js
-│
-├── package.json
-└── README.md
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/yourusername/netflix-clone.git
-cd netflix-clone
+## Can I connect a custom domain to my Lovable project?
 
-2️⃣ Install dependencies
-npm install
+Yes, you can!
 
-3️⃣ Add Environment Variables
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Create a .env file and add:
-
-REACT_APP_TMDB_API_KEY=your_api_key_here
-
-4️⃣ Start the development server
-npm start
-
-
-App will run on:
-
-http://localhost:3000
-
-📸 Screenshots
-
-Add screenshots of your homepage, login page, and movie details page here.
-
-🔮 Future Improvements
-
-Add user profiles
-
-Add watchlist feature
-
-Implement subscription system
-
-Add video streaming backend
-
-Improve performance optimization
-
-📚 Learning Outcomes
-
-API integration
-
-Component-based architecture
-
-State management
-
-Responsive UI design
-
-Authentication handling
-
-⚠️ Disclaimer
-
-This project is created for educational purposes only.
-It is not affiliated with or endorsed by Netflix.
-
-👨‍💻 Author
-
-Your Name
-GitHub: https://github.com/yourusername
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
